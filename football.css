@@ -1,0 +1,251 @@
+body{
+    background-image: url(soccer-4355589_1280.jpg);
+    background-size: cover;
+background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f0f0f0;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* assombrit l'image */
+  z-index: -1;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: #ffe6e6;
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;}
+.Liens{
+    border: solid;
+    border-radius: 1em;
+    border-color: rgb(12, 72, 2);
+    box-shadow: rgb(4, 23, 1);
+    color: rgb(180, 220, 174);
+    background-color: rgb(41, 96, 4);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0.5em;
+    margin:0.5em auto;
+    width: 40%;
+    margin-left:55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+}    
+a{
+    color:#ffe6e6;
+    text-decoration: none;
+    font-weight: 600;   
+}
+a:hover{
+    color: rgb(180, 220, 174);
+    background-color: rgb(12, 72, 2);
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius:1em ;   
+     transform: translateY(-4px) scale(1.03);
+    transition: background-color 0.3s ease, transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s;
+}
+.intro{
+    margin-right: 20%;
+    border-radius: 1.2em;
+    border-color:rgb(9, 49, 1);
+    font-family: 'Manrope', sans-serif;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 1em auto;
+    width: 80%;
+    text-align: center;
+
+} /* <-- Add this closing brace */
+.intro:hover{
+    background-color: rgba(34, 40, 49, 0.2);
+    transition: background-color 0.5s ease-in-out;   
+     transform: translateY(-4px) scale(1.03);
+    transition: background-color 0.3s ease, transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s;
+}
+.A_propos{
+     margin-right: 20%;
+    border-radius: 1.2em;
+    border-color:rgb(9, 49, 1);
+    font-family: 'Monsterrat', sans-serif;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 1em auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 3em;
+}
+.A_propos:hover{
+    background-color: rgba(34, 40, 49, 0.2);
+    transition: background-color 0.5s ease-in-out; 
+     transform: translateY(-4px) scale(1.03);
+    transition: background-color 0.3s ease, transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s;  
+}
+.carriere{
+    margin-right: 20%;
+    border-radius: 1.2em;
+    border-color:rgb(9, 49, 1);
+    font-family: 'Monsterrat', sans-serif;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 1em auto;
+    width: 80%;
+    text-align: center;
+}
+.carriere:hover{
+    background-color: rgba(34, 40, 49, 0.2);
+    transition: background-color 0.5s ease-in-out;   
+     transform: translateY(-4px) scale(1.03);
+    transition: background-color 0.3s ease, transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s;
+}    
+h2{
+    font-family:'Anton', sans-serif; 
+    font-size: 2em;
+}
+li{
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.2em;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    
+    width: 30%;
+}
+ul,ol{
+    list-style-type: none;
+    padding: 0.5em;
+    margin-left: 0.5em;
+    text-align: left;
+    background-color: rgba(34, 40, 49, 0.2);
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    width: 80%;
+}
+ul li:hover, ol li:hover {
+    background-color: rgba(34, 40, 49, 0.4);
+    transition: background-color 0.3s ease, transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s;
+    font-weight:bold ;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    color: #28ff8c;
+     transform: translateY(-4px) scale(1.03); /* effet de "soulèvement" */
+    cursor: pointer; /* indique que c'est interactif */
+}
+.contact p{
+    width: 80%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffe6e6;
+    padding: 1em;
+    margin: 0 auto ;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    font-size: 1.2em;  
+}
+footer img{
+    width:30px;
+    height: 30px;
+    margin-right: 3em;
+}
+footer a:hover{
+    background-color: none;
+    
+}
+footer p{
+    width: 80%;
+    margin: 10% auto;
+}
+.decor {
+  position: absolute;
+  font-size: 2rem;
+  opacity: 0.3;
+  z-index: 0;
+  animation: float 5s infinite ease-in-out;
+  pointer-events: none; /* ne gêne pas le clic */
+}
+
+.decor1 { top: 10%; left: 5%; }
+.decor2 { top: 50%; right: 10%; font-size: 3rem; }
+.decor3 { bottom: 15%; left: 40%; }
+
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 1s forwards;
+}
+.fade-in.delay1 { animation-delay: 0.3s; }
+.fade-in.delay2 { animation-delay: 0.6s; }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.top-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #478e81;
+  color: #222831;
+  padding: 0.7em 1.2em;
+  border-radius: 2em;
+  font-weight: bold;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  z-index: 100;
+}
+.top-button:hover {
+  opacity: 1;
+  background: #28ff8c;
+  color: #222831;
+}
+img:hover {
+  transform: scale(1.05) rotate(-2deg);
+  box-shadow: 0 8px 32px rgba(40,255,140,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+@media (max-width: 700px) {
+  .intro, .A_propos, .carriere, ul, ol {
+    width: 98%;
+    margin-right: 0;
+    font-size: 1em;
+  }
+  .Liens {
+    width: 95%;
+    margin-left: 0;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}
