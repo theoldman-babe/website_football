@@ -251,4 +251,19 @@ img:hover {
   }
 }
 .Contact, footer{
-    font-family: 'Monsterrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;}
+@media (max-width: 1024px) {
+  .Liens {
+    width: 80%;
+    margin-left: 0;
+    justify-content: space-evenly;
+  }
+  .intro, .A_propos, .carriere, ul, ol {
+    width: 90%;
+    margin-right: 0;
+  }
+  li {
+    width: auto;
+  }
+}
+
